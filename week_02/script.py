@@ -7,8 +7,6 @@ b_x = box.x[1]
 b_y = box.y[1]
 b_z = box.z[1]
 
-
-
 class Boid:
     def __init__(self):
         self.position = Point3d(random.randint(box.x[0], b_x),random.randint(box.y[0], b_y),random.randint(box.z[0], b_z))
